@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Replace</title>
     <link rel="icon" type="image/svg" href="favicon.svg">
+    <title>Text Replace</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,13 +15,15 @@
         <br>
         <input type="text" id="replaceText" placeholder="Text k nahrazení" spellcheck="false" onclick="this.select()">
         <br>
-        <input type="text" id="replacementText" placeholder="Nahrazující text" spellcheck="false" onclick="this.select()">
+        <input type="text" id="replacementText" placeholder="Nahrazující text" spellcheck="false"
+            onclick="this.select()">
         <br>
-        <label for="caseSensitive" id="caseSensitiveLabel">Case sensitive:
+        <label for="caseSensitive" id="caseSensitiveLabel">Case sensitive
             <input type="checkbox" id="caseSensitive">
         </label>
         <br>
-        <textarea id="output" placeholder="Výstupní text" spellcheck="false" onclick="this.select()" readonly></textarea>
+        <textarea id="outputText" placeholder="Výstupní text" spellcheck="false" onclick="this.select()"
+            readonly></textarea>
     </div>
     <script src="script.js"></script>
 </body>
