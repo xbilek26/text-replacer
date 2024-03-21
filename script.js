@@ -4,7 +4,7 @@ function replaceText() {
     var replacementText = document.getElementById("replacementText").value;
     var caseSensitive = document.getElementById("caseSensitive").checked;
 
-    var output = document.getElementById("output");
+    var output = document.getElementById("outputText");
 
     var flags = "g";
     if (!caseSensitive) {
